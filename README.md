@@ -83,24 +83,24 @@ To get a local copy up and running follow these simple example steps.
 **Local install**
 
 This installs a local instance of MongoDB on your Innovation Lab VM.
-mongodb_local_clean.sh - Clean up the local mongodb instance
-mongodb_local_setup.sh - Create and run a new mongodb instance.Test connectivity from python,javascript and java
-mongodb_local_test.java - Java CLI code to connect to local mongodb instance
-mongodb_local_test.py - Python code to connect to local mongodb instance
-mongosh_local_test.js - Javascript code to connect to local mongodb instance using mongosh
-testMongoDBconnection_local.js - Mongosh code to connect to local mongodb instance
+* mongodb_local_clean.sh - Clean up the local mongodb instance
+* mongodb_local_setup.sh - Create and run a new mongodb instance.Test connectivity from python,javascript and java
+* mongodb_local_test.java - Java CLI code to connect to local mongodb instance
+* mongodb_local_test.py - Python code to connect to local mongodb instance
+* mongosh_local_test.js - Javascript code to connect to local mongodb instance using mongosh
+* testMongoDBconnection_local.js - Mongosh code to connect to local mongodb instance
 
 
 
 **Atlas connectivity install**
 
 This installs drivers to connect to Remote Atlas instance of MongoDB from your Innovation Lab VM.
-mongodb_atlas_clean.sh - Clean up the mongodb client drivers
-mongodb_atlas_setup.sh - Connect to mongodb Atlas instance.Test connectivity from python,javascript and java
-mongodb_atlas_test.java - Java CLI code to connect to remote Atlas mongodb instance
-mongodb_atlas_test.py - Python code to connect to Atlas mongodb instance
-mongosh_atlas_test.js - Javascript code to connect to local mongodb instance using mongosh
-testMongoDBconnection_atlas.js - Mongosh code to connect to remote atlas mongodb instance
+* mongodb_atlas_clean.sh - Clean up the mongodb client drivers
+* mongodb_atlas_setup.sh - Connect to mongodb Atlas instance.Test connectivity from python,javascript and java
+* mongodb_atlas_test.java - Java CLI code to connect to remote Atlas mongodb instance
+* mongodb_atlas_test.py - Python code to connect to Atlas mongodb instance
+* mongosh_atlas_test.js - Javascript code to connect to local mongodb instance using mongosh
+* testMongoDBconnection_atlas.js - Mongosh code to connect to remote atlas mongodb instance
 
 
 <!-- CONTRIBUTING -->
