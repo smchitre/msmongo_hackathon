@@ -61,7 +61,7 @@ sudo yum install java-11-openjdk-devel -y
 
 #Test java execution
 cd /home/ec2-user/msmongo_hackathon
-javac -cp "/home/ec2-user/msmongo_hackathon/lib/mongo-java-driver-3.12.10.jar" MongodbAtlasCommand.java
-java -cp "/home/ec2-user/msmongo_hackathon/lib/mongo-java-driver-3.12.10.jar:/home/ec2-user/msmongo_hackathon"   MongodbAtlasCommand
+javac -cp "/home/ec2-user/msmongo_hackathon/lib/mongo-java-driver-3.12.10.jar" MongodbLocalCommand.java
+java -cp "/home/ec2-user/msmongo_hackathon/lib/mongo-java-driver-3.12.10.jar:/home/ec2-user/msmongo_hackathon"   MongodbLocalCommand
 
 

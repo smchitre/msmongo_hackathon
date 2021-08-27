@@ -58,13 +58,21 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/smchitre/msmongo_hackathon.git
    ```
-2. For local install of MongoDB on AWS Redhat instance
+2. For local install/testing of MongoDB on AWS Redhat instance
    ```sh
    ./mongodb_local_setup.sh
    ```
-3. For cleanup of local install of MongoDB on AWS Redhat instance
+3. For cleanup of local install of MongoDB & drivers on AWS Redhat instance
    ```sh
    ./mongodb_local_clean.sh
+   ```
+4. For setup/testing of Remote Atlas instance of MongoDB on AWS Redhat instance
+   ```sh
+   ./mongodb_atlas_setup.sh
+   ```
+5. For cleanup of Remote Atlas instance & drivers of MongoDB on AWS Redhat instance
+   ```sh
+   ./mongodb_atlas_clean.sh
    ```
 
 
@@ -72,17 +80,27 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**Local install**
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+This installs a local instance of MongoDB on your Innovation Lab VM.
+mongodb_local_clean.sh - Clean up the local mongodb instance
+mongodb_local_setup.sh - Create and run a new mongodb instance.Test connectivity from python,javascript and java
+mongodb_local_test.java - Java CLI code to connect to local mongodb instance
+mongodb_local_test.py - Python code to connect to local mongodb instance
+mongosh_local_test.js - Javascript code to connect to local mongodb instance using mongosh
+testMongoDBconnection_local.js - Mongosh code to connect to local mongodb instance
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+**Atlas connectivity install**
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
+This installs drivers to connect to Remote Atlas instance of MongoDB from your Innovation Lab VM.
+mongodb_atlas_clean.sh - Clean up the mongodb client drivers
+mongodb_atlas_setup.sh - Connect to mongodb Atlas instance.Test connectivity from python,javascript and java
+mongodb_atlas_test.java - Java CLI code to connect to remote Atlas mongodb instance
+mongodb_atlas_test.py - Python code to connect to Atlas mongodb instance
+mongosh_atlas_test.js - Javascript code to connect to local mongodb instance using mongosh
+testMongoDBconnection_atlas.js - Mongosh code to connect to remote atlas mongodb instance
 
 
 <!-- CONTRIBUTING -->
@@ -98,52 +116,12 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+indiatech-mongodb-core@ms.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+Project Link: [https://github.com/smchitre/msmongo_hackathon.git](https://github.com/smchitre/msmongo_hackathon.git)
 
 
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
